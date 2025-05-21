@@ -9,7 +9,7 @@ if (isset($_POST['submitf'])) {
     $comment = $_POST['Message'];
     $client = new MailchimpMarketing\ApiClient();
     $client->setConfig([
-        'apiKey' => '980098849941b59e95b69f334e1edc2b-us2',
+        'apiKey' => 'API-KEY-GOES-HERE',
         'server' => 'us2'
     ]);
     try {
